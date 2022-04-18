@@ -1,3 +1,6 @@
+group = rootProject.group
+version = rootProject.version
+
 plugins {
     application
 }
@@ -21,9 +24,7 @@ kotlin {
             dependencies {
                 implementation(kotlin("stdlib-common"))
                 implementation(project(":utils"))
-                // KInference core backend implementation
-                implementation("io.kinference:inference-core:0.1.13")
-
+                implementation("io.kinference:inference-core:0.1.13") // KInference core backend implementation
                 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1")
             }
         }
