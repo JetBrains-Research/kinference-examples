@@ -1,0 +1,6 @@
+.idea
+out
+build
+test-data
+.gradle
+*.iml
